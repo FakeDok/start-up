@@ -1,0 +1,29 @@
+$main-color: #f0000f;
+@import 'blocks/header.scss';
+body{
+  color: $main-color;
+}
+div{
+  color:red;
+  h2{
+    color:blue;
+  }
+}
+.contact-us{
+  color:green;
+  &__title{
+    color:red;
+  }
+  &__discription{
+    color:blue;
+  }
+}
+.title{
+  font-size: 50px;
+  color:red;
+}
+subtitle{
+  @extend title;
+  color:green;
+}
+
