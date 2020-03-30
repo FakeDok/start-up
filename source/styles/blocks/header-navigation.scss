@@ -1,0 +1,15 @@
+.header-navigation{
+    &__logo-services{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        color: #ffffff;
+        font-size: 30px;
+    }
+    &__services{
+        padding-right: 40px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+}

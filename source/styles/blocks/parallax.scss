@@ -1,0 +1,78 @@
+.parallax{
+    background-image: url(../img/background-title.png);
+    background-size: 100% 369px;
+    background-repeat: no-repeat;
+    text-align: center;
+    &__top{
+        padding-top: 99px;
+        padding-bottom: 99px;
+    }
+    &__top-title{
+        color: #ffffff;
+        font-size: 30px;
+    }
+    &__top-button{
+        font-size: 16px;
+        background: none;
+        color: #ffffff;
+        padding: 15px 25px;
+    }
+    &__blog{
+        padding-top: 99px;
+        padding-bottom: 101px;
+    }
+    &__blog-title-subtitle{
+
+    }
+    &__blog-title{
+        font-size: 20px;
+        border-bottom: 1px solid;
+        padding-bottom: 29px;
+    }
+    &__blog-subtitle{
+        font-size: 16px;
+        padding-top: 29px;
+        padding-bottom: 69px;
+    }
+}
+.blog-post{
+    &__top{
+        display: flex;
+        padding-bottom: 77px;
+    }
+    &__bottom{
+        display: flex;
+    }
+    &__right-column{
+        text-align: start;
+        padding-left: 41px;
+    }
+    &__title-date{
+        display: flex;
+    }
+    &__date{
+        border: 3px solid;
+        padding: 1px 12px;
+    }
+    &__date-numbers{
+        font-size: 24px;
+    }
+    &__date-month{
+        font-size: 14px;
+    }
+    &__title-subtitle{
+        padding-left: 28px;
+    }
+    &__title{
+        font-size: 16px;
+    }
+    &__subtitle{
+        font-size: 13px;
+    }
+    &__content{
+        font-size: 14px;
+    }
+    &__details{
+        font-size: 13px;
+    }
+}

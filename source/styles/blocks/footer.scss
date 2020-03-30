@@ -1,0 +1,17 @@
+.footer{
+    text-align: center;
+    padding-top: 99px;
+    padding-bottom: 101px;
+    background-color: #c0301c;
+    &__icon{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        border-bottom: 1px solid white ;
+    }
+    &__discription{
+        font-size: 12px;
+        color: #ffffff;
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,20 @@
+.services{
+    &__title-subtitle{
+
+    }
+    &__title{
+        font-size: 20px;
+        color: #555555;
+        padding-bottom: 29px;
+        border-bottom: 1px solid ;
+    }
+    &__subtitle{
+        color: #555555;
+        font-size: 16px;
+        padding-top: 28px;
+        padding-bottom: 70px;
+    }
+    &__all-column{
+        display: flex;
+    }
+}

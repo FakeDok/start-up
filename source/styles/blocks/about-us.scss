@@ -1,0 +1,30 @@
+.about-us{
+    &__title{
+        font-size: 20px;
+        border-bottom: 1px solid;
+        padding-bottom: 30px;
+    }
+    &__subtitle{
+        font-size: 16px;
+        padding-top: 28px;
+        padding-bottom: 70px;
+    }
+    &__discription{
+        display: flex;
+        font-size: 14px;
+        color: #555555;
+        text-align: start;
+        padding-bottom: 71px;
+    }
+    &__team-members{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name{
+        font-size: 20px;
+    }
+    &__profession{
+        font-size: 15px;
+    }
+    
+}

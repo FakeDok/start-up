@@ -2,17 +2,30 @@
     head
         link(href="./styles/main.css", rel="stylesheet")
     body
-        h1 hello
-        img(src="img/boots-nike.png")
-        include section/title.pug
-        mixin phrase
-            span Hello world
-        +phrase
-        +phrase
-        div sdfgsidj
-            h2 dsfguo
-        .contact-us ihjsdfgk
-            h2.contact-us__title sadfsadf
-            .contact-us__discription sdfsadf
-        h2.title HELLO
-        subtitle WORLD
+        .header-navigation
+            .container
+                include section/header-navigation.pug
+        .home-section
+            .container
+                include section/home-section.pug
+        .services
+            .container
+                include section/services.pug
+        .about-us
+            .container
+                include section/about-us.pug
+        .works
+            .container
+                include section/works.pug
+        .parallax
+            .container
+                include section/parallax.pug
+        .clients
+            .container
+                include section/clients.pug
+        .contact
+            .container
+                include section/contact.pug
+        .footer
+            .container
+                include section/footer.pug

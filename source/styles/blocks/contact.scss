@@ -1,0 +1,64 @@
+.contact{
+    text-align: center;
+    padding-top: 99px;
+    padding-bottom: 101px;
+    &__title{
+        padding-bottom: 29px;
+        border-bottom: 1px solid;
+        font-size: 20px;
+    }
+    &__subtitle{
+        padding-top: 29px;
+        font-size: 16px;
+        padding-bottom: 70px;
+    }
+    &__form{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.contact-form{
+    &__left{
+        text-align: start;
+    }
+    &__left-title{
+        font-size: 14px;
+    }
+    &__left-subtitle{
+        font-size: 12px;
+    }
+    &__right{
+        display: flex;
+        flex-direction: column;
+    }
+    &__input{
+        width: 400px;
+        height: 30px;
+        margin-left: 30px;
+    }
+    &__righ-password-email{
+        margin-bottom: 20px;
+    }
+    &__right-message{
+        margin-top: 10px;
+        text-align: start;
+        margin-left: 15px;
+        width: 830px;
+        height: 100px;
+    }
+    &__bottom{
+        display: flex;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    &__bottom-button{
+        font-size: 12px;
+        background: none;
+        padding: 10px 30px;
+    }
+    &__bottom-discription{
+        font-size: 12px;
+        padding-left: 30px;
+        padding-top: 15px;
+    }
+}

@@ -1,0 +1,18 @@
+.clients{
+    padding-top: 99px;
+    padding-bottom: 101px;
+    background-color: #f8f8f8;
+    text-align: center;
+    &__logo{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 84px;
+    }
+    &__discription{
+        padding-bottom: 50px;
+        font-size: 18px;
+    }
+    &__name{
+        font-size: 20px;
+    }
+}

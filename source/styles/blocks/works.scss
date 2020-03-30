@@ -1,0 +1,29 @@
+.works{
+    &__title{
+        font-size: 20px;
+        border-bottom: 1px solid;
+        padding-bottom: 29px;
+    }
+    &__all-subtitle{
+        padding-top: 29px;
+        padding-bottom: 70px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+    &__subtitle{
+        padding: 0px 15px 0px 15px;
+    }
+    &__subtitle:hover{
+        color: #c0301c;
+    }
+    &__image{
+        display: flex;
+        flex-direction: column;
+    }
+    &__level{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 40px;
+    }   
+}

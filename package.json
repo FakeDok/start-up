@@ -1,7 +1,6 @@
 {
   "name": "start-up",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "gulp": "^4.0.2"
@@ -32,5 +31,6 @@
   "bugs": {
     "url": "https://github.com/FakeDok/start-up/issues"
   },
-  "homepage": "https://github.com/FakeDok/start-up#readme"
+  "homepage": "https://github.com/FakeDok/start-up#readme",
+  "description": ""
 }
