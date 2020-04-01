@@ -1,12 +1,13 @@
 .about-us{
+    padding-top: 99px;
+    padding-bottom: 99px;
+    text-align: center;
+    background-color: #f8f8f8;
     &__title{
         font-size: 20px;
-        border-bottom: 1px solid;
-        padding-bottom: 30px;
     }
     &__subtitle{
         font-size: 16px;
-        padding-top: 28px;
         padding-bottom: 70px;
     }
     &__discription{
@@ -20,11 +21,88 @@
         display: flex;
         justify-content: space-between;
     }
+    &__selfie{
+        width: 263px;
+        height: 250px;
+        background-size: cover;
+    }
     &__name{
         font-size: 20px;
     }
     &__profession{
         font-size: 15px;
     }
-    
+}
+.Md-Khalil-Uddin{
+    background-image:url(../img/Md.Khalil-Uddin.png) ;
+}
+.Rubel-Miah{
+    background-image:url(../img/Rubel-Miah.png) ;
+}
+.Shamim-Mia{
+    background-image:url(../img/Shamim-Mia.png) ;
+}
+.John-Doe{
+    background-image:url(../img/John-Doe.png) ;
+}
+@media (max-width: 1024px){
+    .about-us{
+        &__selfie{
+            width: 163px;
+            height: 150px;
+        }
+    }
+}
+@media (max-width: 768px){
+    .about-us{
+        padding-top: 49px;
+        padding-bottom: 49px;
+        &__title{
+            font-size: 16px;
+        }
+        &__subtitle{
+            font-size: 13px;
+            padding-bottom: 40px;
+        }
+        &__discription{
+            font-size: 13px;
+            padding-bottom: 41px;
+        }
+        &__selfie{
+            width: 123px;
+            height: 110px;
+        }
+        &__name{
+            font-size: 16px;
+        }
+        &__profession{
+            font-size: 13px;
+        }
+    }
+}
+@media (max-width: 426px){
+    .about-us{
+        padding-top: 29px;
+        padding-bottom: 29px;
+        &__subtitle{
+            padding-bottom: 20px;
+        }
+        &__discription{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 31px;
+        }
+        &__left-discription{
+            padding-bottom: 20px;
+        }
+        &__team-members{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__selfie{
+            width: 193px;
+            height: 180px;
+        }
+    }
 }

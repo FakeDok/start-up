@@ -1,5 +1,5 @@
 .parallax{
-    background-image: url(../img/background-title.png);
+    background-image: linear-gradient(to top, rgba(255,0,0,0.4)), url(../img/background-title.png);
     background-size: 100% 369px;
     background-repeat: no-repeat;
     text-align: center;
@@ -10,6 +10,7 @@
     &__top-title{
         color: #ffffff;
         font-size: 30px;
+        padding-bottom: 30px;
     }
     &__top-button{
         font-size: 16px;
@@ -21,33 +22,34 @@
         padding-top: 99px;
         padding-bottom: 101px;
     }
-    &__blog-title-subtitle{
-
-    }
     &__blog-title{
         font-size: 20px;
-        border-bottom: 1px solid;
-        padding-bottom: 29px;
     }
     &__blog-subtitle{
         font-size: 16px;
-        padding-top: 29px;
         padding-bottom: 69px;
     }
 }
 .blog-post{
     &__top{
         display: flex;
-        padding-bottom: 77px;
+        padding-bottom: 37px;
+        border-bottom: 1px solid;
+    }
+    &__left-column{
+        width: 100%;
+        height: 274px;
+        background-size: cover;
     }
     &__bottom{
         display: flex;
+        padding-top: 37px;
     }
     &__right-column{
         text-align: start;
         padding-left: 41px;
     }
-    &__title-date{
+    &__content-date{
         display: flex;
     }
     &__date{
@@ -60,19 +62,171 @@
     &__date-month{
         font-size: 14px;
     }
-    &__title-subtitle{
+    &__content{
         padding-left: 28px;
     }
     &__title{
         font-size: 16px;
     }
     &__subtitle{
+        padding-top: 15px;
         font-size: 13px;
     }
-    &__content{
+    &__discription{
+        padding-top: 20px;
         font-size: 14px;
     }
     &__details{
+        padding-top: 30px;
         font-size: 13px;
+    }
+}
+.left-column__top{
+    background-image: url(../img/blog-post-top.png);
+}
+.left-column__bottom{
+    background-image: url(../img/blog-post-bottom.png);
+}
+@media (max-width: 1024px){
+    .parallax{
+        background-size: 100% 309px;
+        &__top-title{
+            font-size: 25px;
+        }
+        &__top-button{
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+    }
+    .blog-post{
+        &__left-column{
+            width: 2000px;
+        }
+    }
+}
+@media (max-width: 768px){
+    .parallax{
+        background-size: 100% 169px;
+        &__top{
+            padding-top: 49px;
+            padding-bottom: 49px;
+        }
+        &__top-title{
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        &__top-button{
+            font-size: 12px;
+            padding: 10px 20px;
+        }
+        &__blog{
+            padding-top: 49px;
+            padding-bottom: 51px;
+        }
+        &__blog-title{
+            font-size: 16px;
+        }
+        &__blog-subtitle{
+            font-size: 13px;
+            padding-bottom: 39px;
+        }
+    }
+    .blog-post{
+        &__left-column{
+            width: 1500px;
+            height: 190px;
+        }
+        &__top{
+            padding-bottom: 37px;
+        }
+        &__bottom{
+            padding-top: 37px;
+        }
+        &__right-column{
+            padding-left: 21px;
+        }
+        &__date{
+            padding: 1px 5px;
+            border: 1px solid;
+        }
+        &__date-numbers{
+            font-size: 20px;
+        }
+        &__date-month{
+            font-size: 10px;
+        }
+        &__content{
+            padding-left: 18px;
+        }
+        &__title{
+            font-size: 16px;
+        }
+        &__subtitle{
+            padding-top: 10px;
+            font-size: 12px;
+        }
+        &__discription{
+            padding-top: 10px;
+            font-size: 12px;
+        }
+        &__details{
+            padding-top: 15px;
+            font-size: 13px;
+        }
+    }
+}
+@media (max-width: 426px){
+    .parallax{
+        background-size: 100% 119px;
+        &__top{
+            padding-top: 19px;
+            padding-bottom: 29px;
+        }
+        &__top-title{
+            font-size: 16px;
+            padding-bottom: 10px;
+        }
+        &__top-button{
+            font-size: 10px;
+            padding: 5px 10px;
+        }
+        &__blog{
+            padding-top: 29px;
+            padding-bottom: 31px;
+        }
+        &__blog-subtitle{
+            padding-bottom: 29px;
+        }
+    }
+    .blog-post{
+        &__left-column{
+            width: 320px;
+            height: 220px;
+            margin-bottom: 20px;
+        }
+        &__top{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            padding-bottom: 27px;
+        }
+        &__bottom{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            padding-top: 27px;
+            
+        }
+        &__right-column{
+            padding-left: 0px;
+        }
+    }
+}
+@media (max-width: 376px){
+    .blog-post{
+        &__left-column{
+            width: 270px;
+            height: 180px;
+        }
     }
 }

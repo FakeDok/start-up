@@ -1,10 +1,15 @@
-.header-navigation__logo-services
-    .header-navigation__logo Startup
-    .header-navigation__all-services 
-        a.header-navigation__services(href="#") Home
-        a.header-navigation__services(href="#") Services
-        a.header-navigation__services(href="#") About
-        a.header-navigation__services(href="#") Works
-        a.header-navigation__services(href="#") Blog
-        a.header-navigation__services(href="#") Clients
-        a.header-navigation__services(href="#") Contact
+.header-navigation
+    .container
+        .header-navigation__logo-services
+            .header-navigation__logo Startup
+            .header-navigation__all-services 
+                label.burger-icon(for="burger")
+                input.menu-burger(id="burger" type="checkbox")
+                .header-navigation__menu
+                    .header-navigation__services(href="#") Home
+                    .header-navigation__services(href="#") Services
+                    .header-navigation__services(href="#") About
+                    .header-navigation__services(href="#") Works
+                    .header-navigation__services(href="#") Blog
+                    .header-navigation__services(href="#") Clients
+                    .header-navigation__services(href="#") Contact

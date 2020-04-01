@@ -1,18 +1,52 @@
 .home-section{
-    &__title-discription{
+    background-image:linear-gradient(to top, rgba(2,0,0,0.5)), url(../img/home.png);
+    padding: 323px 0px 260px;
+    &__content{
         color: #ffffff;
         text-align: center;
     }
     &__title{
         font-size: 48px;
     }
-    &discription{
+    &__discription{
         font-size: 20px;
+        padding: 20px 0px 40px;
     }
     &__button{
         font-size: 16px;
         background: none;
         color: #ffffff;
         padding: 15px 25px;
+    }
+}
+@media (max-width: 1024px){
+    .home-section{
+        padding: 223px 0px 160px;
+        &__title{
+            font-size: 38px;
+        }
+        &__discription{
+            font-size: 16px;
+        }
+        &__button{
+            font-size: 12px;
+            padding: 10px 20px;
+        }
+    }
+   
+}
+@media (max-width: 769px){
+    .home-section{
+        padding: 123px 0px 60px;
+        &__title{
+            font-size: 30px;
+        }
+        &__discription{
+            font-size: 12px;
+        }
+        &__button{
+            font-size: 10px;
+            padding: 10px 20px;
+        }
     }
 }

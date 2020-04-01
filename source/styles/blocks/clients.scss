@@ -3,10 +3,15 @@
     padding-bottom: 101px;
     background-color: #f8f8f8;
     text-align: center;
-    &__logo{
+    &__all-logo{
         display: flex;
         justify-content: space-around;
         padding-bottom: 84px;
+    }
+    &__logo{
+        width: 150px;
+        height: 50px;
+        background-repeat: no-repeat;
     }
     &__discription{
         padding-bottom: 50px;
@@ -14,5 +19,64 @@
     }
     &__name{
         font-size: 20px;
+    }
+}
+.logo1{
+    background-image: url(../img/clients-logo1.png);
+}
+.logo2{
+    background-image: url(../img/clients-logo2.png);
+}
+.logo3{
+    background-image: url(../img/clients-logo3.png);
+}
+.logo4{
+    background-image: url(../img/clients-logo4.png);
+}
+.logo5{
+    background-image: url(../img/clients-logo5.png);
+}
+@media (max-width: 768px){
+    .clients{
+        padding-top: 49px;
+        padding-bottom: 51px;
+        &__all-logo{
+            padding-bottom: 44px;
+        }
+        &__logo{
+            width: 70px;
+            height: 30px;
+            background-size: contain;
+        }
+        &__discription{
+            padding-bottom: 25px;
+            font-size: 14px;
+        }
+        &__name{
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width: 426px){
+    .clients{
+        padding-top: 29px;
+        padding-bottom: 31px;
+        &__all-logo{
+            padding-bottom: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__logo{
+            width: 100px;
+            height: 50px;
+        }
+        &__discription{
+            padding-bottom: 25px;
+            font-size: 12px;
+        }
+        &__name{
+            font-size: 14px;
+        }
     }
 }

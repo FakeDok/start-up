@@ -1,31 +1,17 @@
 <!doctype html/>
+html(lang="en")
     head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width" initial-scale="1")
+        title start-up
         link(href="./styles/main.css", rel="stylesheet")
     body
-        .header-navigation
-            .container
-                include section/header-navigation.pug
-        .home-section
-            .container
-                include section/home-section.pug
-        .services
-            .container
-                include section/services.pug
-        .about-us
-            .container
-                include section/about-us.pug
-        .works
-            .container
-                include section/works.pug
-        .parallax
-            .container
-                include section/parallax.pug
-        .clients
-            .container
-                include section/clients.pug
-        .contact
-            .container
-                include section/contact.pug
-        .footer
-            .container
-                include section/footer.pug
+        include section/header-navigation.pug
+        include section/home-section.pug
+        include section/services.pug
+        include section/about-us.pug
+        include section/works.pug
+        include section/parallax.pug
+        include section/clients.pug
+        include section/contact.pug
+        include section/footer.pug
